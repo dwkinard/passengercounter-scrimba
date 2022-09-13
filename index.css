@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://media.cntraveler.com/photos/5fce391a3cfe1de2cab7949c/master/pass/Rocky_Mountaineer.jpg");
+    background-position: center;
+    background-color: rgb(105, 104, 104);
+    background-blend-mode: multiply;
+    color: white;
+    font-weight: 800;
+}
+
+h1 {
+    margin: 10px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+button {
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 24px;
+    margin: 10px
+}
+
+#add-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background-color: green;
+}
